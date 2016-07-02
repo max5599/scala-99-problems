@@ -12,4 +12,8 @@ class EasyProblemsSpec extends FlatSpec with Matchers {
     EasyProblems.penultimate(List(1, 1, 2, 3, 5, 8)) shouldBe 5
   }
 
+  "P03: nth(2, List(1, 1, 2, 3, 5, 8))" should "return 2" in {
+    EasyProblems.nth(2, List(1, 1, 2, 3, 5, 8)) shouldBe 2
+  }
+
 }
