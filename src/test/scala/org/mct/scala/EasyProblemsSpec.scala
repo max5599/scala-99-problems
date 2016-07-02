@@ -8,4 +8,8 @@ class EasyProblemsSpec extends FlatSpec with Matchers {
     EasyProblems.last(List(1, 1, 2, 3, 5, 8)) shouldBe 8
   }
 
+  "P02: penultimate(List(1, 1, 2, 3, 5, 8))" should "return 5" in {
+    EasyProblems.penultimate(List(1, 1, 2, 3, 5, 8)) shouldBe 5
+  }
+
 }
