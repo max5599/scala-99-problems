@@ -24,4 +24,8 @@ class EasyProblemsSpec extends FlatSpec with Matchers {
     EasyProblems.reverse(List(1, 1, 2, 3, 5, 8)) shouldBe List(8, 5, 3, 2, 1, 1)
   }
 
+  "P06: isPalindrome(List(1, 2, 3, 2, 1))" should "return true" in {
+    EasyProblems.isPalindrome(List(1, 2, 3, 2, 1)) shouldBe true
+  }
+
 }
