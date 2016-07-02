@@ -16,8 +16,12 @@ class EasyProblemsSpec extends FlatSpec with Matchers {
     EasyProblems.nth(2, List(1, 1, 2, 3, 5, 8)) shouldBe 2
   }
 
-  "P04: length(List(1, 1, 2, 3, 5, 8))" should "return length" in {
+  "P04: length(List(1, 1, 2, 3, 5, 8))" should "return 6" in {
     EasyProblems.length(List(1, 1, 2, 3, 5, 8)) shouldBe 6
+  }
+
+  "P05: reverse(List(1, 1, 2, 3, 5, 8))" should "return List(8, 5, 3, 2, 1, 1)" in {
+    EasyProblems.reverse(List(1, 1, 2, 3, 5, 8)) shouldBe List(8, 5, 3, 2, 1, 1)
   }
 
 }
