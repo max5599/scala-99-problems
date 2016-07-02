@@ -16,4 +16,8 @@ class EasyProblemsSpec extends FlatSpec with Matchers {
     EasyProblems.nth(2, List(1, 1, 2, 3, 5, 8)) shouldBe 2
   }
 
+  "P04: length(List(1, 1, 2, 3, 5, 8))" should "return length" in {
+    EasyProblems.length(List(1, 1, 2, 3, 5, 8)) shouldBe 6
+  }
+
 }
